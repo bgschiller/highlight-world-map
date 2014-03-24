@@ -5,7 +5,7 @@ This is a simple tool for making maps highlighting certain countries. You can tr
 
 This project came about because I needed a map highlighting a few countries for a presentation at work. I may have gone a bit overboard.
 
-[![](http://imgs.xkcd.com/comics/the_general_problem.png "I find that when someone&#39;s taking time to do something right in the present, they&#39;re a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.")](https://xkcd.com/974/)
+[![](http://imgs.xkcd.com/comics/the_general_problem.png "I find that when someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.")](https://xkcd.com/974/)
 
 The use case I imagined is that of making an image of a map for a presentation. For example, "Our company is present in all these countries." To save a map, you would make the map as large as needed (increase the text size, use a high-resolution monitor, etc) and take a screenshot. If you have a suggestion for a better way to save the map, please let me know with an [issue](https://github.com/bgschiller/highlight-world-map/issues/new) or pull request.
 
