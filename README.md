@@ -1,7 +1,7 @@
 Highlight-World-Map
 -------------------
 
-This is a simple tool for making maps highlighting certain countries. It's nothing  fancy, but (in my opinion) it does one job well. Right now, it uses the [Robinson projection](http://en.wikipedia.org/wiki/Robinson_projection), although that may be configurable in the future.
+This is a simple tool for making maps highlighting certain countries. You can try it at [brianschiller.com/highlight-world-map/](http://brianschiller.com/highlight-world-map/). It's nothing fancy, but (in my opinion) it does one job well. Right now, it uses the [Robinson projection](http://en.wikipedia.org/wiki/Robinson_projection), although that may be configurable in the future.
 
 The use case I imagined for this is making a map for a presentation. For example, "Our company is present in all these countries." To save a map, you would make the map as large as needed (increase the text size, use a high-resolution monitor, etc) and take a screenshot. If you have a suggestion for a better way to save the map, please let me know with an [issue](https://github.com/bgschiller/highlight-world-map/issues/new) or pull request.
 
