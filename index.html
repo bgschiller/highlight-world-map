@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="highlight-world-map.css">
+  </head>
+  <body>
+    <div class="container" id="form_container" style="display:none;">
+      <div class="row">
+        <div class="span12">
+          <form class="form-horizontal" id="map_form">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Highlight World Map</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="active_color">Active country color</label>
+              <div class="col-md-4">
+              <input id="active_color" name="active_color" type="text" placeholder="defaults to #009dd9" class="form-control input-md">
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="inactive_color">Inactive country color</label>
+              <div class="col-md-4">
+              <input id="inactive_color" name="inactive_color" type="text" placeholder="defaults to #b3b3b3" class="form-control input-md">
+              </div>
+            </div>
+
+            <!--Add country typeahead-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="add_country">Add country</label>
+              <div class="col-md-4">
+                <input id="add_country" name="add_country" type="text" placeholder="Countries" class="form-control input-md typeahead">
+              </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="active_countries">Active countries</label>
+              <div class="col-md-4">
+                <textarea class="form-control" id="active_countries" name="active_countries"></textarea>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit_form"></label>
+              <div class="col-md-4">
+                <button id="submit_form" name="submit_form" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">Created by <a href="http://brianschiller.com">Brian Schiller</a>. Hosted on <a href="http://pages.github.com/">GitHub Pages</a>. Source code available on GitHub.
+        </p>
+      </div>
+    </div>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.js"></script>
+    <script src="highlight-world-map.js"></script>
+  </body>
+</html>
