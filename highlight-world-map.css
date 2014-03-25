@@ -3,6 +3,11 @@ body {
   background: #fcfcfa;
 }
 
+svg {
+  display: block;
+  margin: auto;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
