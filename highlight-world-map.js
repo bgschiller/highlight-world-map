@@ -156,12 +156,12 @@ if (isEmptyObj(params)){ //No map selected, display form
   active_country_style = "fill: " +
       (isHexColor(params.active_color) || default_active_color) +
       ";";
-  sheet.addRule(".active_country",active_country_style);
+  sheet.insertRule(".active_country {" + active_country_style + "}",0);
 
   inactive_country_style = "fill: " +
       (isHexColor(params.inactive_color) || default_inactive_color) +
       ";";
-  sheet.addRule(".inactive_country",inactive_country_style);
+  sheet.insertRule(".inactive_country {" + inactive_country_style + "}",0);
 
   var active_countries = params.active_countries.split(',');
 
